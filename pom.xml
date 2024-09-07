@@ -78,6 +78,13 @@
 <version>1.0.6</version>
 <scope>provided</scope>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.15.0</version>
+</dependency>
  
 <!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
 <dependency>
@@ -108,7 +115,21 @@
 <version>2.0.2-beta</version>
 <scope>test</scope>
 </dependency>
- 
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version>
+</dependency>
+
+<!--https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+<dependency>
+<groupId>tech.grasshopper</groupId>
+<artifactId>extentreports-cucumber7-adapter</artifactId>
+<version>1.14.0</version>
+</dependency>
+
 <!-- https://mvnrepository.com/artifact/net.sourceforge.cobertura/cobertura -->
 <dependency>
 <groupId>net.sourceforge.cobertura</groupId>
